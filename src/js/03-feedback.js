@@ -25,5 +25,6 @@ function makeSubmit(event) {
   event.preventDefault();
   localStorage.removeItem('feedback-form-state');
   console.log(formData);
+  event.currentTarget.reset();
 }
 form.addEventListener('submit', makeSubmit);
