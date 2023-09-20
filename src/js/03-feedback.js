@@ -20,6 +20,7 @@ try {
 } catch (error) {
   console.log(error);
 }
+console.log(formData);
 function makeSubmit(event) {
   event.preventDefault();
   localStorage.removeItem('feedback-form-state');
